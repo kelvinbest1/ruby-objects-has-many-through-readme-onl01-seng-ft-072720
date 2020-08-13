@@ -30,4 +30,4 @@ class Waiter
     end
   end
 
-  end
+  
