@@ -26,7 +26,7 @@ class Waiter
             meal.customer
         end.map do |customer|
             customer.name
-        end.uniq
+        .uniq
     end
   end
 
