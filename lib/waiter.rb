@@ -29,5 +29,15 @@ class Waiter
         .uniq
     end
   end
-
+def highest_tip
+        highest_tip = 0
+        highest_tipper = nil
+        meals.each do |customer|
+            if customer.tip > highest_tip
+                highest_tip = customer.tip
+                highest_tipper = customer
+            end
+        end
+        highest_tipper
+    end
   
