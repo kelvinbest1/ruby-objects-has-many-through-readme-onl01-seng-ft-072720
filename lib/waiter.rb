@@ -27,6 +27,6 @@ class Waiter
             customer.name
         end.uniq
     end
-    end
+    
 
   end
